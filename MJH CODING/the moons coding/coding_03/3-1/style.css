@@ -1,0 +1,21 @@
+.divdiv{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 400ms;
+    cursor: pointer;
+}
+.divdiv:hover{
+    background-color: black;
+    color: white;
+    transform: scale(0.9);
+}
+.divdiv:active{
+    transform: scale(0.9);
+}
